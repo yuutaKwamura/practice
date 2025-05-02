@@ -1,5 +1,23 @@
 @use "../setting/" as s;
 
+header {
+  .container {
+    width: 140rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+  }
+   .header-left {
+    width: 16rem;
+    height: 3.6rem;
+   }
+   .header-right li {
+    float: left;
+    font-size: 1.4rem;
+    
+   }
+}
+
+
 h2.subtitle {
   text-align: center;
   margin-top: 2rem;
