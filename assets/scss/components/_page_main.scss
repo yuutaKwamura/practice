@@ -1,59 +1,75 @@
 @use "../setting/" as s;
 
 header {
-  .container {
-    width: 140rem;
-    padding: 0 4rem;
-    margin: 0 auto;
-  }
-   .header-left {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .icon {
+    margin-left: 4rem;
     width: 16rem;
     height: 3.6rem;
-   }
-   .header-right li {
-    float: left;
-    font-size: 1.4rem;
-    
-   }
-}
-
-
-h2.subtitle {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-p {
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-main {
-  section {
-    .icons {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 2rem auto 0;
-      box-sizing: border-box;
-      width: 100%;
-      gap: 5rem;
-      @include s.pc {
-        flex-direction: row;
-      }
-      .icon {
-        margin-right: 1rem;
-        width: calc(100% / 3 - 1rem);
-        @include s.pc {
-          width: 20%;
-        }
-        &:last-child {
-          @include s.pc {
-            margin-right: 0;
-          }
-        }
-      }
-    }
   }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 4rem;
+  }
+    .nav-items {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 2rem;
+    }
+
+    .header-button {
+      margin-left: 2rem;
+      width: 17.2rem;
+      height: 4rem;
+      background-color: #0F65F0;
+      color: #fff;
+      border: none;
+      border-radius: 2.4rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+    }
+}
+
+.section {
+  .top-icon {
+    width: 100%;
+    height: 70rem;
+  }
+  .logo-container {
+    margin: 2.4rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5.6rem;
+    align-items: center;
+  }
+    .logo {
+      flex: 0 0 19.4rem;
+      height: 7.7rem;
+    }  
+  
+  .appeal-container {
+    width: 100%;
+    height: 5.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .appeal-text {
+      font-size: 1.5rem;
+      color: #02225D;
+      font-weight: bold;
+    }  
+  }    
 }
