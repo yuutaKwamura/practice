@@ -73,3 +73,97 @@ header {
     }  
   }    
 }
+
+.section2 {
+  .section2-heading {
+    width: 96rem;
+    height: 7.2rem;
+    margin: 0 auto;
+    margin-top: 6.4rem;
+    text-align: center;
+
+    p {
+      font-size: 1.4rem;
+      color: #0F65F0;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 3.6rem;
+      color: #02225D;
+      font-weight: bold;
+    }
+  }
+
+  .problem-section {
+    .bg-rect {
+      margin: 4.8rem 24rem;
+      width: 96rem;
+      height: 41.4rem;
+      background-color: #EBEBEB;
+      padding: 2.4rem 6.4rem 4rem 6.4rem;
+    }
+
+    .problem-title {
+      text-align: center;
+      font-size: 2.8rem;
+      font-weight: bold;
+      color: #02225D;
+      margin: 0;
+      border-bottom: 0.1rem solid #859196;
+    }
+
+    .problem-content {
+      width: 83.2rem;
+      height: 26.4rem;
+      margin: 3.2rem auto 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 4rem;
+
+      .illustration {
+        flex: 0 0 22.298rem;
+
+        .logo {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .problem-boxes {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+
+        .problem-box {
+          width: 43.4rem;
+          height: 5.4rem;
+          background-color: #FFFFFF;
+          display: flex;
+          align-items: flex-start;
+          padding: 1.4rem 1.6rem;
+          box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+          line-height: 2.6rem;
+          gap: 0.1rem;
+  
+          .checked {
+            flex: 0 0 2.4rem;
+            width: 2.4rem;
+            height: 2.4rem;
+          }
+
+          p {
+            font-size: 1.6rem;
+            color: #02225D;
+            font-weight: bold;
+            
+            .text-red {
+              color: #C84B19;
+            }
+          }
+        }
+      }
+    }
+  }
+}
