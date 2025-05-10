@@ -167,3 +167,103 @@ header {
     }
   }
 }
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 64.8rem;
+  position: absolute;
+
+  .blue-box {
+    position: absolute;
+    background-image: url('../images/Frame-1341.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 96rem;
+    height: 58.4rem;
+
+    .blue-box-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .blue-box-text {
+        width: 45.493rem;
+        height: 24.599rem;
+        position: absolute;
+        left: 6.48rem;
+        top: 7.741rem;
+
+        h2 {
+          width: 45.493rem;
+          height: 5rem;
+          font-size: 3.6rem;
+          color: #FFFF;
+          font-weight: bold;
+        }
+
+        h3 {
+          width: 45.293rem;
+          height: 6.4rem;
+          font-size: 2rem;
+          color: #fff;
+          font-weight: bold;
+        }
+
+        p {
+          width: 45.193rem;
+          height: 8.4rem;
+          font-size: 1.6rem;
+          color: #fff;
+        }
+      }
+
+      .blue-box-image {
+        position: relative;
+        transform: translateX(55.1rem) translateY(-5.198rem);
+        
+        .checked {
+          width: 34.6rem;
+          height: 36.5rem;
+        }
+      }
+    }
+
+    .blue-box-bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 44rem);
+      column-gap: 2.4rem;
+      row-gap: 2.4rem;
+      justify-content: center;
+      margin-bottom: 3.2rem;
+
+      .card {
+        width: 44rem;
+        height: 9.8rem;
+        background-color: #fff;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 1.6rem;
+
+        .checked {
+          width: 5.6rem;
+          height: 5.6rem;
+        }
+
+        p {
+          margin: 0;
+          flex: 1;
+          font-size: 1.6rem;
+          line-height: 2.6rem;
+          color: #02225D;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+}
