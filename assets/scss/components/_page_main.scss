@@ -566,11 +566,69 @@ header {
 .section6 {
   width: 144rem;
   height: 83rem;
+  padding: 12rem 12rem 8rem 12rem;
+
+  .heading {
+    width: 96rem;
+    height: 7.2rem;
+    margin: 0 auto 4.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #0F65F0;
+    }
+
+    h2 {
+      font-size: 3.6rem;
+      font-weight: bold;
+      color: #02225D;
+    }
+  }
+
+  .comparison {
+    width: 120rem;
+    height: 51rem;
+  }
 }
 
 .section7 {
   width: 144rem;
   height: 100.9rem;
+  padding: 12rem;
+
+  .heading {
+    width: 96rem;
+    height: 7.2rem;
+    margin: 0 auto 4.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #0F65F0;
+    }
+
+    h2 {
+      font-size: 3.6rem;
+      font-weight: bold;
+      color: #02225D;
+    }
+  }
+
+  .table {
+    width: 120rem;
+    height: 64.9rem;
+  }
 }
 
 .button2 {
